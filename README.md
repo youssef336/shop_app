@@ -9,6 +9,11 @@
   <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-3DDC84?style=for-the-badge" alt="Platform" />
 </p>
 
+<p align="center">
+  <img src="docs/screens.jpg" alt="Screens" width="100%"/>
+  <br/><sub>Home · Update product · Saving</sub>
+</p>
+
 ## About
 
 A store app built while learning **REST APIs in Flutter** with the `http` package against [Fake Store API](https://fakestoreapi.com/). The home screen shows a two-column grid of product cards with the image floating above each card. Tap a product to open an update form, which sends a `PUT` request to the API. All HTTP calls go through one reusable `Api` helper class with GET, POST and PUT methods.
